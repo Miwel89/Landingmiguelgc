@@ -1,0 +1,76 @@
+body {
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(180, 162, 162);
+    font-family: Soleil,Helvetica,Arial,sans-serif;
+}
+
+
+#main-header {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 62px
+    
+}
+
+.main-navigation ul {
+    font-size: 13px;
+    line-height: 21px;
+    display: flex;
+}
+
+.main-navigation li {
+    margin-left: 70px;
+}
+
+a {text-decoration: none;}
+.main-navigation a {
+    color: rgb(130, 38, 148);
+    font-weight: 550;
+}
+
+.feature-background {
+    background-image: url(imagenes/Gradiente.png);
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+}
+
+ .feature-background .container {
+    align-items: center;
+    display: flex;
+    padding: 120px 0;
+}
+.feature-background .content,
+.feature-background .image {
+    padding: 0 80px 0 0;
+    width: 100%;
+    font-size: 100%
+}
+ .feature-background .content h1 {
+    font-size: 56px;
+    line-height: 72px;
+    margin-bottom: 20px;
+
+ }
+
+.feature-background .content h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 35px;
+}
+
+
+.feature-background.content {
+    height: auto;
+    max-width: 100%;
+    width: 50%;
+    text-align: center;
+padding: 0 40px;
+
+
+} 
