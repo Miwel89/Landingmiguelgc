@@ -54,7 +54,7 @@ a {text-decoration: none;}
     display: flex;
 }
 .feature-background .content {
-    padding: 0 80px 0 60px;
+    padding: 0 80px 0 80px;
     width: 50%;
     font-size: 100%
 }
@@ -69,13 +69,13 @@ a {text-decoration: none;}
 }
 
  .feature-background .content h1 {
-    font-size: 56px;
+    font-size: 3.5rem;
     line-height: 72px;
     margin-bottom: 20px;
 
  }
  .feature-background .content h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
     line-height: 72px;
     margin-bottom: 20px;
 
@@ -83,7 +83,7 @@ a {text-decoration: none;}
 
 .feature-background .content h4 {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 40px;
     margin-bottom: 35px;
 }
@@ -98,3 +98,16 @@ padding: 0 40px;
 
 
 } 
+
+@media screen and (max-width: 991px) {
+    .feature-background .content h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .feature-background .content h2 {
+        font-size: 1.2rem;
+    }
+    .feature-background .content h4 {
+        font-size: .8rem;
+    }
+}
