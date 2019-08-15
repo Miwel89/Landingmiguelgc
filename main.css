@@ -129,38 +129,29 @@ padding: 0 40px;
 }
 
 
-.buttonsgroup{
-
-    text-align: center;
-    flex-direction: column
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
 }
 
-.buttons{
+.button:not(:last-child) {
+    margin-bottom: 100px;
+}
 
-    text-align: center;
-    display: inline-block;
-    line-height: normal;
-    text-decoration: none;
-    background-color:  rgb(130, 38, 148);
+.button a.primary, .button a.secondary {
+    text-decoration: none;    
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color:#C00A93;
     border: 0;
     border-radius: 3px;
     padding: 18px 32px 17px;
     letter-spacing: 1.5px;
-    flex-direction: column
-   
+    box-sizing: border-box;
 }
-
-.buttons .button1 
-
-{
-    font-size: 15px;
+.button a.secondary{
     color: rgb(255, 255, 255);
-
-}
-.buttons .button2 
-
-{
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-
+    background-color:  #2335B1 ;
 }
