@@ -11,7 +11,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 0 62px
+    margin: 0 80px
     
 }
 
@@ -115,7 +115,7 @@ padding: 0 40px;
 .imagenes {
     width: 100 vw;
     text-align: center;
-    padding: 0 80px 0 00px;
+    padding: 80px 50px 50px;
     
 }
 
@@ -124,10 +124,43 @@ padding: 0 40px;
     font-size: 20px;
     color: rgb(130, 38, 148);
     margin-bottom: 40px;
-    padding: 0 80px 0 80px;
+    padding: 0 100px 0 80px;
 
 }
 
 
+.buttonsgroup{
 
+    text-align: center;
+    flex-direction: column
+}
 
+.buttons{
+
+    text-align: center;
+    display: inline-block;
+    line-height: normal;
+    text-decoration: none;
+    background-color:  rgb(130, 38, 148);
+    border: 0;
+    border-radius: 3px;
+    padding: 18px 32px 17px;
+    letter-spacing: 1.5px;
+    flex-direction: column
+   
+}
+
+.buttons .button1 
+
+{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
+.buttons .button2 
+
+{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
