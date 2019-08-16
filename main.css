@@ -55,6 +55,7 @@ a {
     align-items: center;
     display: flex;
     height: calc(100vh - 100px);
+    justify-content: space-between;
 }
 
 .feature-background .content {
@@ -191,7 +192,7 @@ a {
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
-    
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
